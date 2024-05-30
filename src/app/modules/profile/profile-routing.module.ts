@@ -45,9 +45,7 @@ const routes: Routes = [
       {
         path: 'connections',
         component: ConnectionsComponent,
-      },
-      { path: '', redirectTo: 'overview', pathMatch: 'full' },
-      { path: '**', redirectTo: 'overview', pathMatch: 'full' },
+      }
     ],
   },
 ];
