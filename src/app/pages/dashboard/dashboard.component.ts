@@ -13,7 +13,17 @@ export class DashboardComponent {
     closeButtonLabel: 'Cancel'
   };
   @ViewChild('modal') private modalComponent: ModalComponent;
-  constructor() {}
+
+
+  role: string;
+
+  constructor() {
+    this.role = 'docente';
+  }
+
+  getRole(): string {
+    return this.role;
+  }
 
   async openModal() {
     return await this.modalComponent.open();

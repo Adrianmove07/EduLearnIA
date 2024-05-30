@@ -18,4 +18,7 @@ import { ModalsModule, WidgetsModule } from '../../_metronic/partials';
     ModalsModule,
   ],
 })
-export class DashboardModule {}
+export class DashboardModule {
+
+  
+}
