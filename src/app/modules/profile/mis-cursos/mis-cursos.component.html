@@ -1,0 +1,31 @@
+<div class="row g-6 g-xxl-9">
+    <h3 class="fw-bolder my-2">
+        Mis Cursos
+    </h3>
+    <div class="d-flex my-2">
+        <div class="d-flex align-items-center position-relative me-4">
+            <app-keenicon name="magnifier" class="fs-3 position-absolute ms-3"></app-keenicon>
+            <input type="text" id="kt_filter_search"
+                class="form-control form-control-white form-control-sm w-150px ps-9" placeholder="Search" />
+        </div>
+
+        <a class="btn btn-primary btn-sm cursor-pointer">Buscar Curso</a>
+    </div>
+    <div class="col-md-6 col-xl-4">
+        <app-card2 icon="./assets/media/svg/brand-logos/plurk.svg" badgeColor="primary" status="In Progress"
+            statusColor="primary" title="Matemáticas" description="Polinomios" [progress]="50"
+            [users]="users1"></app-card2>
+    </div>
+
+    <div class="col-md-6 col-xl-4">
+        <app-card2 icon="./assets/media/svg/brand-logos/disqus.svg" badgeColor="info" status="Pending"
+            statusColor="info" title="Inglés" description="English Description" [progress]="30"
+            [users]="users2"></app-card2>
+    </div>
+
+    <div class="col-md-6 col-xl-4">
+        <app-card2 icon="./assets/media/svg/brand-logos/figma-1.svg" badgeColor="success" status="Completed"
+            statusColor="success" title="Física" description="Movimiento uniforme" [progress]="100"
+            [users]="users3"></app-card2>
+    </div>
+</div>

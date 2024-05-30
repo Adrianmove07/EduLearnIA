@@ -18,6 +18,9 @@ import { CKEditorModule } from 'ckeditor4-angular';
 import { NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MisCursosComponent } from './mis-cursos/mis-cursos.component';
+import { MisNotasComponent } from './mis-notas/mis-notas.component';
+import { MisCertificadosComponent } from './mis-certificados/mis-certificados.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CampaignsComponent,
     DocumentsComponent,
     ConnectionsComponent,
+    MisCursosComponent,
+    MisNotasComponent,
+    MisCertificadosComponent,
   ],
   imports: [
     CommonModule,
