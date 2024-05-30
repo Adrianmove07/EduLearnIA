@@ -10,7 +10,7 @@ export class SidebarMenuComponent implements OnInit {
   role: string;
 
   constructor() {
-    this.role = 'docente';
+    this.role = 'estudiante';
   }
 
   getRole(): string {

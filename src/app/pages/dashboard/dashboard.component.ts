@@ -22,7 +22,7 @@ export class DashboardComponent {
   role: string;
 
   constructor() {
-    this.role = 'docente';
+    this.role = 'estudiante';
   }
 
   getRole(): string {
