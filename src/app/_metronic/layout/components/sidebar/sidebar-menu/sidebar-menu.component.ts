@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarMenuComponent implements OnInit {
 
-  constructor() { }
+  role: string;
+
+  constructor() {
+    this.role = 'docente';
+  }
+
+  getRole(): string {
+    return this.role;
+  }
 
   ngOnInit(): void {
   }

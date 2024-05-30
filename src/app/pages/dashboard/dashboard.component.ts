@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { ModalConfig, ModalComponent } from '../../_metronic/partials';
+import { ModalConfig, ModalComponent, IconUserModel } from '../../_metronic/partials';
 
 @Component({
   selector: 'app-dashboard',
@@ -14,7 +14,11 @@ export class DashboardComponent {
   };
   @ViewChild('modal') private modalComponent: ModalComponent;
 
-
+  users1: Array<IconUserModel> = [
+    { name: 'Emma Smith', avatar: './assets/media/avatars/300-6.jpg' },
+    { name: 'Rudy Stone', avatar: './assets/media/avatars/300-1.jpg' },
+    { name: 'Susan Redwood', initials: 'S', color: 'primary' },
+  ];
   role: string;
 
   constructor() {

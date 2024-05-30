@@ -1,3 +1,84 @@
 
 <app-tables-widget10 *ngIf="role === 'docente'" class="card card-xxl-stretch mb-5 mb-xl-8"></app-tables-widget10>
 
+<div *ngIf="role === 'estudiante'">
+  <h3 class="card-title align-items-start flex-column">
+     <span class="text-muted mt-1 fw-bold fs-3">Sugerencias para ti</span>
+  </h3>
+
+<div class="row g-6 g-xl-9 mb-6 mb-xl-9">
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/1.jpg"
+      title="Curso de matematicas avanzado"
+      description="Hace 1 día"
+    ></app-card4>
+  </div>
+
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/3.jpg"
+      title="Curso de polinomios "
+      description="Hace 3 meses"
+    ></app-card4>
+  </div>
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/5.png"
+      title="Curso de trigonometria"
+      description="Hace 1 mes"
+    ></app-card4>
+  </div>
+
+</div>
+<div class="row g-6 g-xl-9 mb-6 mb-xl-9">
+
+
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/6.png"
+      title="Curso de calculo 1"
+      description="Hace 2 semanas"
+    ></app-card4>
+  </div>
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/4.png"
+      title="Curso de inglés basico"
+      description="Hace 7 meses"
+    ></app-card4>
+  </div>
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/2.jpg"
+      title="Curso quimica organica"
+      description="Hace 25 días"
+    ></app-card4>
+  </div>
+
+</div>
+<div class="row g-6 g-xl-9 mb-6 mb-xl-9">
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/7.svg"
+      title="Curso de MRU - Fisica"
+      description="Hace 2 semanas"
+    ></app-card4>
+  </div>
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/8.svg"
+      title="Curso de filosofia"
+      description="Hace 8 meses"
+    ></app-card4>
+  </div>
+  <div class="col-12 col-sm-12 col-xl">
+    <app-card4
+      icon="./assets/media/svg/files/9.svg"
+      title="Curso de ciencias sociales"
+      description="Hace 6 días"
+    ></app-card4>
+  </div>
+</div>
+
+</div>

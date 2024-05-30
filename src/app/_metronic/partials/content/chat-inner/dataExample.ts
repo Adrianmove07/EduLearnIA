@@ -5,65 +5,65 @@ interface MessageModel {
   time: string;
   template?: boolean;
 }
-
 const defaultMessages: Array<MessageModel> = [
   {
     user: 4,
     type: 'in',
-    text: 'How likely are you to recommend our company to your friends and family ?',
+    text: '¿Qué tan probable es que recomiendes nuestra empresa a tus amigos y familiares?',
     time: '2 mins',
   },
   {
     user: 2,
     type: 'out',
-    text: 'Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.',
+    text: 'Hola, solo queremos informarte que te has suscrito a un repositorio en GitHub.',
     time: '5 mins',
   },
   {
     user: 4,
     type: 'in',
-    text: 'Ok, Understood!',
-    time: '1 Hour',
+    text: '¡Ok, entendido!',
+    time: '1 Hora',
   },
   {
     user: 2,
     type: 'out',
-    text: 'You’ll receive notifications for all issues, pull requests!',
-    time: '2 Hours',
+    text: '¡Recibirás notificaciones para todos los problemas y solicitudes de extracción!',
+    time: '2 Horas',
   },
   {
     user: 4,
     type: 'in',
-    text: 'You can unwatch this repository immediately by clicking here: <a href="https://keenthemes.com">Keenthemes.com</a>',
-    time: '3 Hours',
+    text: 'Puedes dejar de seguir este repositorio inmediatamente haciendo clic aquí: <a href="https://keenthemes.com">Keenthemes.com</a>',
+    time: '3 Horas',
   },
   {
     user: 2,
     type: 'out',
-    text: 'Most purchased Business courses during this sale!',
-    time: '4 Hours',
+    text: '¡Los cursos de negocios más comprados durante esta oferta!',
+    time: '4 Horas',
   },
   {
     user: 4,
     type: 'in',
-    text: 'Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided',
-    time: '5 Hours',
+    text: 'EduLearnIA te brinda apoyo sobre tus dudas',
+    time: '5 Horas',
   },
   {
     template: true,
     user: 2,
     type: 'out',
     text: '',
-    time: 'Just now',
+    time: 'Justo ahora',
   },
   {
     template: true,
     user: 4,
     type: 'in',
-    text: 'Right before vacation season we have the next Big Deal for you.',
-    time: 'Just now',
+    text: 'Justo antes de la temporada de vacaciones tenemos el próximo Gran Oferta para ti.',
+    time: 'Justo ahora',
   },
 ];
+
 
 interface UserInfoModel {
   initials?: {
@@ -196,8 +196,8 @@ const defaultUserInfos: Array<UserInfoModel> = [
 const messageFromClient: MessageModel = {
   user: 4,
   type: 'in',
-  text: 'Thank you for your awesome support!',
-  time: 'Just now',
+  text: '¡Gracias por comunicarte con nosotros, ¿en que puedo ayudarte?!',
+  time: 'Justo ahora',
 };
 
 export {

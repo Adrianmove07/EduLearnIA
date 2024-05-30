@@ -14,7 +14,15 @@ export class NavbarComponent implements OnInit {
   userAvatarClass: string = 'symbol-35px symbol-md-40px';
   btnIconClass: string = 'fs-2 fs-md-1';
 
-  constructor() {}
+  role: string;
+
+  constructor() {
+    this.role = 'docente';
+  }
+
+  getRole(): string {
+    return this.role;
+  }
 
   ngOnInit(): void {}
 }

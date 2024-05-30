@@ -7,6 +7,7 @@ import { MixedComponent } from './mixed/mixed.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { TablesComponent } from './tables/tables.component';
 import { WidgetsExamplesComponent } from './widgets-examples.component';
+import { TablesWidget9Component } from 'src/app/_metronic/partials/content/widgets/tables/tables-widget9/tables-widget9.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
       {
         path: 'feeds',
         component: FeedsComponent,
+      },
+      {
+        path: 'tables-widget9',
+        component: TablesWidget9Component,
       },
       { path: '', redirectTo: 'lists', pathMatch: 'full' },
       { path: '**', redirectTo: 'lists', pathMatch: 'full' },
